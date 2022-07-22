@@ -1,0 +1,9 @@
+{% for company in company_list%}
+    <ul>
+    {{ company.code }}
+    {{ company.company }}
+    </ul>
+{% endfor %}
+
+{{ company_list.0.code }} {{ company_list.0.company}}
+{{ company_list.1.code }} {{ company_list.1.company}}
