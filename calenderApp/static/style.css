@@ -14,16 +14,18 @@ body, table, tbody, td, th, tr, p{
     padding: 0;
     margin: 0;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
 }
 
 body, tbody{
     cursor: default;
 }
 
+/*
 body{
-    /* background-color: #000; */
+    // background-color: #000; //
 }
+*/
 
 .calender{
     overflow: hidden;
