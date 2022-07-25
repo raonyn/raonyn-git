@@ -5,6 +5,13 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
+
+# eddy test
+
+    path('list/', views.list, name='list'),
+
+#####
+    
     path(
         "",
         views.EntryListView.as_view(),

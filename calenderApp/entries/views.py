@@ -15,6 +15,14 @@ from django.views.generic import (
     DeleteView,
 )
 
+# Index Test eddy
+
+from django.http import HttpResponse
+
+def list(request):
+    return HttpResponse("Hello, world. You're at the polls index.")
+####
+
 from .models import Entry
 
 class LockedView(LoginRequiredMixin):
